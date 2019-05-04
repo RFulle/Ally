@@ -78,7 +78,7 @@ def vocab():
        mydb = mysql.connector.connect(
               host = "localhost",
               user = "RAF",
-              passwd = 'kate12312',
+              passwd = 'PASSWORD',
               database = 'ava'
               )
        sql = "INSERT INTO vocab (word, definition, example) VALUES (%s, %s, %s)"
@@ -98,7 +98,7 @@ def showtable():
        mydb = mysql.connector.connect(
               host = "localhost",
               user = "RAF",
-              passwd = 'kate12312',
+              passwd = 'PASSWORD',
               database = 'ava'
               )
        mycursor = mydb.cursor()
@@ -113,7 +113,7 @@ def talkap2(name, favcol, favnum):
        mydb = mysql.connector.connect(
               host = "localhost",
               user = "RAF",
-              passwd = 'kate12312',
+              passwd = 'PASSWORD',
               database = 'ava'
               )
        mycursor = mydb.cursor()
@@ -148,7 +148,7 @@ def showtalka():
        mydb = mysql.connector.connect(
               host = "localhost",
               user = "RAF",
-              passwd = 'kate12312',
+              passwd = 'PASSWORD',
               database = 'ava'
               )
        mycursor = mydb.cursor()
@@ -160,7 +160,7 @@ def printtaco():
        mydb = mysql.connector.connect(
               host = "localhost",
               user = "RAF",
-              passwd = 'kate12312',
+              passwd = 'PASSWORD',
               database = 'ava'
               )
        mycursor = mydb.cursor()
@@ -181,7 +181,7 @@ def maketable():
                mydb = mysql.connector.connect(
                              host = "localhost",
                              user = "RAF",
-                             passwd = 'kate12312',
+                             passwd = 'PASSWORD',
                              database = 'ava'
                              )
                mycursor = mydb.cursor()
