@@ -10,7 +10,7 @@ def dictionary():
        mydb = mysql.connector.connect(
               host = "localhost",
               user = "RAF",
-              passwd = 'kate12312',
+              passwd = 'PASSWORD',
               database = 'ava'
               )
        mycursor = mydb.cursor()
@@ -22,7 +22,7 @@ def vocab():
        mydb = mysql.connector.connect(
               host = "localhost",
               user = "RAF",
-              passwd = 'kate12312',
+              passwd = 'PASSWORD',
               database = 'ava'
               )
        sql = "INSERT INTO vocab (word, definition, example) VALUES (%s, %s, %s)"
@@ -43,7 +43,7 @@ def talkap2(name, favcol, favnum):
        mydb = mysql.connector.connect(
               host = "localhost",
               user = "RAF",
-              passwd = 'kate12312',
+              passwd = 'PASSWORD',
               database = 'ava'
               )
        mycursor = mydb.cursor()
@@ -80,7 +80,7 @@ def maketable():
                mydb = mysql.connector.connect(
                              host = "localhost",
                              user = "RAF",
-                             passwd = 'kate12312',
+                             passwd = 'PASSWORD',
                              database = 'ava'
                              )
                mycursor = mydb.cursor()
@@ -121,7 +121,7 @@ while 1 == 1:
               mydb = mysql.connector.connect(
                             host = "localhost",
                             user = "RAF",
-                            passwd = 'kate12312',
+                            passwd = 'PASSWORD',
                             database = 'ava'
                             )
               mycursor = mydb.cursor()
