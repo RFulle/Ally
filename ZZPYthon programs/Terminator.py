@@ -32,11 +32,6 @@ def COMMAND_(user):
         print('''LIST: : : : :
                {}, TARGET
                :
-               RAEGAN NELLE FULLER, CIVILIAN, NON-TARGET
-               :
-               RHETT BUTLER FULLER, CIVILIAN, NON-TARGET
-               :
-               RHYS ANDREW FULLER, PRIMARY USER, NON-TARGET
                : : : : : : : : : : : : :
                '''.format(target1))
         time.sleep(4)
@@ -76,6 +71,7 @@ def COMMAND_(user):
                time.sleep(.25)
                timer = timer - 1
         print("TERMINATED.")
+
 
 
 COMMAND_('Rhys')
